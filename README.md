@@ -58,7 +58,7 @@ Sold together at [akizuki](http://akizukidenshi.com/catalog/g/gI-00451/).
 
 It is possible to make a 3.3V/8MHz version of the Otemba by using an 
 [8MHz crystal](http://akizukidenshi.com/catalog/g/gP-00541/) (instead of 16), the
-[TA4833F](http://akizukidenshi.com/catalog/g/gI-00538/) (instead of TA4805F)
+[TA48M033F](http://akizukidenshi.com/catalog/g/gI-00538/) (instead of TA48M05F)
 and the [HT7733A](http://akizukidenshi.com/catalog/g/gI-02799/) (instead of
 HT7705A).
 
