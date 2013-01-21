@@ -44,8 +44,9 @@ Main purposes and characteristics:
 * 1x TA48M05F 5V, 500mA regulator
 * 1x 47uF electrolytic capacitor (C4) 
 * 1x 0.1uF capacitor (C5)
+* 1x 2.1mm barrel jack [akizuki](http://akizukidenshi.com/catalog/g/gC-00077/)
 
-Sold together at [akizuki](http://akizukidenshi.com/catalog/g/gI-00451/).
+Regulator and capacitors sold together at [akizuki](http://akizukidenshi.com/catalog/g/gI-00451/).
 
 ### Battery Booster (optional)
 
@@ -53,6 +54,7 @@ Sold together at [akizuki](http://akizukidenshi.com/catalog/g/gI-00451/).
 * 1x 47uF electrolytic capacitor (C6) [akizuki](http://akizukidenshi.com/catalog/g/gP-03120/)
 * 1x 22uF electrolytic capacitor (C7) [akizuki](http://akizukidenshi.com/catalog/g/gP-03177/)
 * 1x 47uH inductor (L1) [akizuki](http://akizukidenshi.com/catalog/g/gP-03965/)
+* 1x Optional connector JST XH-2 2 pins
 
 ### 3.3V/8MHz version
 
