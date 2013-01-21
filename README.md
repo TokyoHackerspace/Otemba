@@ -18,9 +18,7 @@ Why another Arduino clone ?
 
 * It would make a great final end of a crazy THS guided Akihabara tour. Could be a geek tourist kit.
 
-[Otemba schematics](https://github.com/TokyoHackerspace/Otemba/raw/master/Otemba_sch.png)
-
-[Otemba board layout](https://github.com/TokyoHackerspace/Otemba/raw/master/Otemba_brd.png)
+<img src="https://dl.dropbox.com/u/78009186/Photos/otemba.jpg">
 
 ## Board Assembly
 
