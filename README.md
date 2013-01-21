@@ -24,6 +24,26 @@ Why another Arduino clone ?
 
 Checkout the board (5V version) assembly [instructions](https://dl.dropbox.com/u/78009186/Documents/Otemba_1.0_assembly.pdf).
 
+## Bootloader
+
+For some help burning the bootloader, refer to the Arduino [website](http://arduino.cc/en/Hacking/Bootloader?from=Main.Bootloader).
+
+* 5V/16MHz : use the standard Arduino UNO bootloader,
+
+* 3.3V/8MHz : use the 'Arduino Pro or Pro Mini (3.3V, 8MHz) w/ ATmega328',
+
+* 3.3V/8MHz, no crystal : see the minimal circuit description at the end of this [page](http://arduino.cc/en/Tutorial/ArduinoToBreadboard).
+
+## Upload sketches
+
+To lower cost, the Otemba doesn't have an FTDI serial-to-USB chip on-board. So
+to upload sketches to the board, and FTDI serial-to-USB dongle is necessary.
+These can be bought from Sparkfun or adafruit. For example here is a
+[5V](https://www.sparkfun.com/products/9716?) version and a
+[3.3V](https://www.sparkfun.com/products/9873) version, depending on what board
+setup you use (normally it is 5V). Here is a cheap ass
+[way](http://letsmakerobots.com/node/23728) of making such a cable.
+
 ## Bill Of Materials
 
 * 1x 10K resistor (R1) [akizuki](http://akizukidenshi.com/catalog/g/gR-25103/)
@@ -64,16 +84,6 @@ and the [HT7733A](http://akizukidenshi.com/catalog/g/gI-02799/) (instead of
 HT7705A).
 
 In that case, it is also possible to completely omit the crystal, C8 and C9 and run the board on the internal oscillator.
-
-## Bootloader
-
-For some help burning the bootloader, refer to the Arduino [website](http://arduino.cc/en/Hacking/Bootloader?from=Main.Bootloader).
-
-* 5V/16MHz : use the standard Arduino UNO bootloader,
-
-* 3.3V/8MHz : use the 'Arduino Pro or Pro Mini (3.3V, 8MHz) w/ ATmega328',
-
-* 3.3V/8MHz, no crystal : see the minimal circuit description at the end of this [page](http://arduino.cc/en/Tutorial/ArduinoToBreadboard).
 
 ## Get Otemba PCB fabricated
 
