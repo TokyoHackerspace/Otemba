@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Otemba by TokyoHackerspace</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Otemba</h1>
+        <p>A tomboy of an Arduino board for the TokyoHackerSpace.</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/TokyoHackerspace/Otemba" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/TokyoHackerspace/Otemba/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/TokyoHackerspace/Otemba/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <blockquote>
+<p><em>Otemba</em> : Tomboy in Japanese.</p>
+</blockquote>
+
+<p>Tokyo Hackerspace's very own Arduino clone.</p>
+
+<p>Why another Arduino clone ?</p>
+
+<ul>
+<li><p>Really cheap (&lt; JPY1000 all parts and PCB included, we could sell kits for profit, PCBs only for less profit)</p></li>
+<li><p>Great for the introduction to arduino/soldering class.</p></li>
+<li><p>We would always have an arduino handy at the hackerspace.</p></li>
+<li><p>It would fit nicely in the vending machine! We could sell it on the website. There could be a discount for members, or you could get just the PCB when you join so that you readily have a first project to do at the space (get the parts at akizuki and put it together).</p></li>
+<li><p>It has the hackerspace logo and stuff!</p></li>
+<li><p>It would make a great final end of a crazy THS guided Akihabara tour. Could be a geek tourist kit.</p></li>
+</ul><p><img src="https://dl.dropbox.com/u/78009186/Photos/otemba.jpg"></p>
+
+<h2>Board Assembly</h2>
+
+<p>Checkout the board (5V version) assembly <a href="https://dl.dropbox.com/u/78009186/Documents/Otemba_1.0_assembly.pdf">instructions</a>.</p>
+
+<h2>Bill Of Materials</h2>
+
+<ul>
+<li>1x 10K resistor (R1) <a href="http://akizukidenshi.com/catalog/g/gR-25103/">akizuki</a>
+</li>
+<li>1x 1K resistor (R2) <a href="http://akizukidenshi.com/catalog/g/gR-25102/">akizuki</a>
+</li>
+<li>3x 0.1uF capacitors (C1, C2, C3) 2.54mm pitch <a href="http://akizukidenshi.com/catalog/g/gP-00090/">akizuki</a>
+</li>
+<li>2x 22pF capacitors (C8, C9) <a href="http://akizukidenshi.com/catalog/g/gP-04060/">akizuki</a>
+</li>
+<li>1x atmega328p <a href="http://akizukidenshi.com/catalog/g/gI-03142/">akizuki</a>
+</li>
+<li>1x Tactile Switch 2.54mm pitch <a href="http://akizukidenshi.com/catalog/g/gP-03652/">akizuki</a>
+</li>
+<li>1x 16MHz crystal <a href="http://akizukidenshi.com/catalog/g/gP-00545/">akizuki</a>
+</li>
+<li>1x 3mm LED <a href="http://akizukidenshi.com/catalog/g/gI-04113/">akizuki</a>
+</li>
+<li>1x6 and 1x20 pin headers (90 degrees) <a href="http://akizukidenshi.com/catalog/g/gC-01627/">akizuki</a>
+</li>
+<li>2x3 pin header (straight) <a href="http://akizukidenshi.com/catalog/g/gC-00082/">akizuki</a>
+</li>
+</ul><h3>Regulator (optional)</h3>
+
+<ul>
+<li>1x TA48M05F 5V, 500mA regulator</li>
+<li>1x 47uF electrolytic capacitor (C4) </li>
+<li>1x 0.1uF capacitor (C5)</li>
+<li>1x 2.1mm barrel jack <a href="http://akizukidenshi.com/catalog/g/gC-00077/">akizuki</a>
+</li>
+</ul><p>Regulator and capacitors sold together at <a href="http://akizukidenshi.com/catalog/g/gI-00451/">akizuki</a>.</p>
+
+<h3>Battery Booster (optional)</h3>
+
+<ul>
+<li>1x HT7705A 5V, 200mA booster <a href="http://akizukidenshi.com/catalog/g/gI-02800/">akizuki</a>
+</li>
+<li>1x 47uF electrolytic capacitor (C6) <a href="http://akizukidenshi.com/catalog/g/gP-03120/">akizuki</a>
+</li>
+<li>1x 22uF electrolytic capacitor (C7) <a href="http://akizukidenshi.com/catalog/g/gP-03177/">akizuki</a>
+</li>
+<li>1x 47uH inductor (L1) <a href="http://akizukidenshi.com/catalog/g/gP-03965/">akizuki</a>
+</li>
+<li>1x Optional connector JST XH-2 2 pins</li>
+</ul><h3>3.3V/8MHz version</h3>
+
+<p>It is possible to make a 3.3V/8MHz version of the Otemba by using an 
+<a href="http://akizukidenshi.com/catalog/g/gP-00541/">8MHz crystal</a> (instead of 16), the
+<a href="http://akizukidenshi.com/catalog/g/gI-00538/">TA48M033F</a> (instead of TA48M05F)
+and the <a href="http://akizukidenshi.com/catalog/g/gI-02799/">HT7733A</a> (instead of
+HT7705A).</p>
+
+<p>In that case, it is also possible to completely omit the crystal, C8 and C9 and run the board on the internal oscillator.</p>
+
+<h2>Bootloader</h2>
+
+<p>For some help burning the bootloader, refer to the Arduino <a href="http://arduino.cc/en/Hacking/Bootloader?from=Main.Bootloader">website</a>.</p>
+
+<ul>
+<li><p>5V/16MHz : use the standard Arduino UNO bootloader,</p></li>
+<li><p>3.3V/8MHz : use the 'Arduino Pro or Pro Mini (3.3V, 8MHz) w/ ATmega328',</p></li>
+<li><p>3.3V/8MHz, no crystal : see the minimal circuit description at the end of this <a href="http://arduino.cc/en/Tutorial/ArduinoToBreadboard">page</a>.</p></li>
+</ul><h2>License</h2>
+
+<p>2012 (c) TokyoHackerspace, License <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA 3.0</a>.</p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/TokyoHackerspace">TokyoHackerspace</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
