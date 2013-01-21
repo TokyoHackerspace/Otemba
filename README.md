@@ -2,28 +2,29 @@
 
 > _Otemba_ : Tomboy in Japanese.
 
-
 Tokyo Hackerspace's very own Arduino clone.
 
-Main purposes and characteristics:
+Why another Arduino clone ?
 
 * Really cheap (< JPY1000 all parts and PCB included, we could sell kits for profit, PCBs only for less profit)
 
-* Great as introduction to soldering
+* Great for the introduction to arduino/soldering class.
 
-* Great for the introduction to arduino class
-
-* We would always have an arduino handy at the hackerspace
+* We would always have an arduino handy at the hackerspace.
 
 * It would fit nicely in the vending machine! We could sell it on the website. There could be a discount for members, or you could get just the PCB when you join so that you readily have a first project to do at the space (get the parts at akizuki and put it together).
 
-* It would have the hackerspace logo and stuff, it could have a funky shape (a sushi ?).
+* It has the hackerspace logo and stuff!
 
-* It would make a great final end of a crazy THS guided Akihabara tour. Could be a geek tourist kit. (Totti)
+* It would make a great final end of a crazy THS guided Akihabara tour. Could be a geek tourist kit.
 
 [Otemba schematics](https://github.com/TokyoHackerspace/Otemba/raw/master/Otemba_sch.png)
 
 [Otemba board layout](https://github.com/TokyoHackerspace/Otemba/raw/master/Otemba_brd.png)
+
+## Board Assembly
+
+Checkout the board (5V version) assembly [instructions](https://dl.dropbox.com/u/78009186/Documents/Otemba_1.0_assembly.pdf).
 
 ## Bill Of Materials
 
@@ -67,6 +68,8 @@ HT7705A).
 In that case, it is also possible to completely omit the crystal, C8 and C9 and run the board on the internal oscillator.
 
 ## Bootloader
+
+For some help burning the bootloader, refer to the Arduino [website](http://arduino.cc/en/Hacking/Bootloader?from=Main.Bootloader).
 
 * 5V/16MHz : use the standard Arduino UNO bootloader,
 
