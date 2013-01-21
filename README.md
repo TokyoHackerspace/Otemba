@@ -74,3 +74,20 @@ For some help burning the bootloader, refer to the Arduino [website](http://ardu
 * 3.3V/8MHz : use the 'Arduino Pro or Pro Mini (3.3V, 8MHz) w/ ATmega328',
 
 * 3.3V/8MHz, no crystal : see the minimal circuit description at the end of this [page](http://arduino.cc/en/Tutorial/ArduinoToBreadboard).
+
+## Get Otemba PCB fabricated
+
+The Gerber files necessary to produce Otemba boards can be downloaded here :
+[tar](https://dl.dropbox.com/u/78009186/files/Otemba_v1.0_gerber.tar.gz)
+[zip](https://dl.dropbox.com/u/78009186/files/Otemba_v1.0_gerber.zip).
+
+PCB can be fabbed anywhere you like, but if you don't know how to start,
+checkout the [Seeed Studio](http://www.seeedstudio.com/) [Fusion PCB
+Service](http://www.seeedstudio.com/depot/fusion-pcb-service-p-835.html?cPath=185).
+It is cheap and quick. The lowest quantity is 10 boards for 10$.
+On their website, simply upload the zip file containing the Otemba Gerber
+file. The board size is 5x5 cm. All the default options should work just fine.
+
+## License
+
+2012 (c) TokyoHackerSpace, License [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
