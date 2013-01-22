@@ -37,7 +37,7 @@ For some help burning the bootloader, refer to the Arduino [website](http://ardu
 ## Upload sketches
 
 To lower cost, the Otemba doesn't have an FTDI serial-to-USB chip on-board. So
-to upload sketches to the board, and FTDI serial-to-USB dongle is necessary.
+to upload sketches to the board, an FTDI serial-to-USB dongle is necessary.
 These can be bought from Sparkfun or adafruit. For example here is a
 [5V](https://www.sparkfun.com/products/9716?) version and a
 [3.3V](https://www.sparkfun.com/products/9873) version, depending on what board
