@@ -73,7 +73,8 @@ Regulator and capacitors sold together at [akizuki](http://akizukidenshi.com/cat
 * 1x 47uF electrolytic capacitor (C6) [akizuki](http://akizukidenshi.com/catalog/g/gP-03120/)
 * 1x 22uF electrolytic capacitor (C7) [akizuki](http://akizukidenshi.com/catalog/g/gP-03177/)
 * 1x 47uH inductor (L1) [akizuki](http://akizukidenshi.com/catalog/g/gP-03965/)
-* 1x Optional connector JST XH-2 2 pins
+* 1x Shottky diode, 200 mA [akizuki](http://akizukidenshi.com/catalog/g/gI-03013/)
+* 1x Optional connector JST XH-2 (2 pins)
 
 ### 3.3V/8MHz version
 
